@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
         },
         features = {"src/test/resources/features/Login.feature"},
         tags = " ",
-        publish = true
+   dryRun= false,     publish = true
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {
